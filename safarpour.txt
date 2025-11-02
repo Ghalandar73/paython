@@ -1,0 +1,84 @@
+# تمرین 1 - متغیرها و عملگرهای منطقی
+num1 = 7
+num2 = 0
+text1 = "IRAN"
+text2 = ""
+bool1 = True
+bool2 = False
+list1 = [10, 20]
+list2 = []
+float1 = 20.22
+none_var = None
+
+print("--- NOT ---")
+print(not bool1)      # False
+print(not bool2)      # True
+print(not num1)       # False
+print(not num2)       # True
+print(not text1)      # False
+print(not text2)      # True
+print(not list1)      # False
+print(not list2)      # True
+print(not float1)     # False
+print(not none_var)   # True
+
+print("--- AND ---")
+print(bool1 and num1)     # 7
+print(bool2 and text1)    # False
+print(num1 and num2)      # 0
+print(text1 and text2)    # ""
+print(list1 and list2)    # []
+print(float1 and bool1)   # True
+print(none_var and num1)  # None
+print(text2 and list1)    # ""
+print(num2 and float1)    # 0
+print(bool1 and text1)    # IRAN
+
+print("--- OR ---")
+print(bool1 or bool2)     # True
+print(bool2 or num1)      # 7
+print(num2 or num1)       # 7
+print(text2 or text1)     # IRAn
+print(list2 or list1)     # [10, 20]
+print(none_var or float1) # 20.22
+print(text2 or bool1)     # True
+print(num2 or list1)      # [10, 20]
+print(bool2 or text1)     # IRAN
+print(none_var or bool2)  # False
+
+# تمرین 2 - عملگر is
+age1 = 25
+age2 = 50
+age3 = 30
+lang1 = "Python"
+lang2 = "Python"
+lang3 = "Java"
+nums1 = [50, 100, 150]
+nums2 = [50, 100, 150]
+nums3 = nums1
+empty_var = None
+
+print("--- IS ---")
+print(age1 is age2)           # True
+print(lang1 is lang2)         # True
+print(nums1 is nums2)         # False
+print(nums1 is nums3)         # True
+print(empty_var is None)      # True
+print(age1 is age3)           # False
+print(lang1 is lang3)         # False
+print(nums1 is not nums2)     # True
+print(empty_var is not None)  # False
+print(age1 is not age3)       # True
+
+# تمرین 3 - تابع type()
+print("--- TYPE ---")
+print(type(num1))        # <class 'int'>
+print(type(num2))        # <class 'int'>
+print(type(text1))       # <class 'str'>
+print(type(text2))       # <class 'str'>
+print(type(bool1))       # <class 'bool'>
+print(type(bool2))       # <class 'bool'>
+print(type(list1))       # <class 'list'>
+print(type(list2))       # <class 'list'>
+print(type(float1))      # <class 'float'>
+print(type(none_var))    # <class 'NoneType'>
