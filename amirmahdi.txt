@@ -1,0 +1,49 @@
+p = 4
+q = 6
+r = 2
+s = 8
+m = 3
+n = 7
+t = 12
+g = 4
+
+def F1():
+    k = 9
+    return k
+
+def F2(m):
+    k = m
+    return k
+
+def F3(m, p, q, r):
+    k = p * (m**2) + q * m + r
+    return k
+
+def F4(m, p, q, r, s):
+    k = p * (m**3) + q * (m**2) + r * m + s
+    return k
+
+def F5(p, m):
+    k = p ** m
+    return k
+
+def F6(m):
+    k = -m
+    return k
+
+def F7(t, p, s, g):
+    k = t - (p * s) / g
+    return k
+
+def F8(m, n, p, q):
+    k = p * m + q * n
+    return k
+
+print(F1())
+print(F2(m))
+print(F3(m, p, q, r))
+print(F4(m, p, q, r, s))
+print(F5(p, m))
+print(F6(m))
+print(F7(t, p, s, g))
+print(F8(m, n, p, q))
