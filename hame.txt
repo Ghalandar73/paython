@@ -1,0 +1,797 @@
+def rec_and1(n):
+    if n >= 2 and n <= 7:
+        print(n)
+        rec_and1(n + 1)
+
+def rec_and2(n):
+    if n > 1 and n < 5:
+        print(n * 5)
+        rec_and2(n + 1)
+
+def rec_and3(n):
+    if n <= 4 and n >= 2:
+        print(f"عدد: {n}")
+        rec_and3(n + 1)
+
+def rec_and4(n):
+    if n % 2 == 0 and n <= 8:
+        print(n)
+        rec_and4(n + 2)
+
+def rec_and5(n):
+    if n >= 3 and n <= 6:
+        result = n + 8
+        print(result)
+        rec_and5(n + 1)
+
+def rec_and6(n):
+    if n < 6 and n > 1:
+        print(f"کوچک: {n}")
+        rec_and6(n + 1)
+
+def rec_and7(n):
+    if n >= 4 and n <= 9:
+        print(n * 3)
+        rec_and7(n + 1)
+
+def rec_and8(n):
+    if n <= 5 and n >= 2:
+        print(f"مقدار: {n}")
+        rec_and8(n + 1)
+
+def rec_and9(n):
+    if n > 2 and n < 7:
+        print(n + 12)
+        rec_and9(n + 1)
+
+def rec_and10(n):
+    if n >= 1 and n <= 3:
+        print(f"نقطه: {n}")
+        rec_and10(n + 1)
+def rec_or1(n):
+    if n == 2 or n == 4 or n == 6:
+        print(n)
+    if n < 7:
+        rec_or1(n + 1)
+
+def rec_or2(n):
+    if n < 4 or n > 8:
+        print(n)
+    if n < 11:
+        rec_or2(n + 1)
+
+def rec_or3(n):
+    if n % 3 == 0 or n % 4 == 0:
+        print(f"مضرب: {n}")
+    if n < 9:
+        rec_or3(n + 1)
+
+def rec_or4(n):
+    if n == 1 or n == 6 or n == 11:
+        print(f"مخصوص: {n}")
+    if n < 12:
+        rec_or4(n + 1)
+
+def rec_or5(n):
+    if n < 3 or n > 9:
+        print(n)
+    if n < 11:
+        rec_or5(n + 1)
+
+def rec_or6(n):
+    if n == 3 or n == 5 or n == 7:
+        print(f"فرد: {n}")
+    if n < 8:
+        rec_or6(n + 1)
+
+def rec_or7(n):
+    if n < 5 or n > 7:
+        print(f"حاشیه: {n}")
+    if n < 9:
+        rec_or7(n + 1)
+
+def rec_or8(n):
+    if n == 2 or n == 11:
+        print(f"انتهایی: {n}")
+    if n < 12:
+        rec_or8(n + 1)
+
+def rec_or9(n):
+    if n % 4 == 0 or n % 5 == 0:
+        print(n)
+    if n < 13:
+        rec_or9(n + 1)
+
+def rec_or10(n):
+    if n < 6 or n > 16:
+        print(f"خارجی: {n}")
+    if n < 21:
+        rec_or10(n + 1)
+
+
+
+def rec_not1(n):
+    if not n > 4:
+        print(n)
+        rec_not1(n + 1)
+
+def rec_not2(n):
+    if not n == 6:
+        print(n)
+    if not n >= 9:
+        rec_not2(n + 1)
+
+def rec_not3(n):
+    if not n < 3:
+        print(f"بزرگ: {n}")
+    if not n > 6:
+        rec_not3(n + 1)
+
+def rec_not4(n):
+    if not n % 3 == 0:
+        print(f"غیر مضرب سه: {n}")
+    if not n >= 8:
+        rec_not4(n + 1)
+
+def rec_not5(n):
+    if not n == 1 and not n == 11:
+        print(n)
+    if not n > 10:
+        rec_not5(n + 1)
+
+def rec_not6(n):
+    if not n > 5:
+        print(f"کوچک: {n}")
+        rec_not6(n + 1)
+
+def rec_not7(n):
+    if not n < 4:
+        print(n * 3)
+    if not n > 7:
+        rec_not7(n + 1)
+
+def rec_not8(n):
+    if not n == 5:
+        print(f"غیر پنج: {n}")
+    if not n >= 9:
+        rec_not8(n + 1)
+
+def rec_not9(n):
+    if not n % 4 == 0:
+        print(n)
+    if not n > 10:
+        rec_not9(n + 1)
+
+def rec_not10(n):
+    if not n < 6 or not n > 8:
+        print(f"محدوده: {n}")
+    if not n >= 11:
+        rec_not10(n + 1)
+
+
+def rec_multiply1(n):
+    if n <= 5:
+        result = n * 3
+        print(result)
+        rec_multiply1(n + 1)
+
+def rec_multiply2(n):
+    if n <= 4:
+        result = n * 6
+        print(result)
+        rec_multiply2(n + 1)
+
+def rec_multiply3(n):
+    if n <= 6:
+        result = n * n
+        print(result)
+        rec_multiply3(n + 1)
+
+def rec_multiply4(n):
+    if n <= 5:
+        result = n * 12
+        print(result)
+        rec_multiply4(n + 1)
+
+def rec_multiply5(n):
+    if n <= 4:
+        result = n * 4
+        print(result)
+        rec_multiply5(n + 1)
+
+def rec_multiply6(n):
+    if n <= 7:
+        result = n * 8
+        print(result)
+        rec_multiply6(n + 1)
+
+def rec_multiply7(n):
+    if n <= 6:
+        result = n * 5
+        print(result)
+        rec_multiply7(n + 1)
+
+def rec_multiply8(n):
+    if n <= 5:
+        result = n * 7
+        print(result)
+        rec_multiply8(n + 1)
+
+def rec_multiply9(n):
+    if n <= 4:
+        result = n * 9
+        print(result)
+        rec_multiply9(n + 1)
+
+def rec_multiply10(n):
+    if n <= 6:
+        result = n * 11
+        print(result)
+        rec_multiply10(n + 1)
+
+
+#taghsim
+def rec_divide1(n):
+    if n <= 5 and n > 0:
+        result = 30 / n
+        print(result)
+        rec_divide1(n + 1)
+
+def rec_divide2(n):
+    if n <= 6:
+        result = n / 3
+        print(result)
+        rec_divide2(n + 1)
+
+def rec_divide3(n):
+    if n <= 4:
+        result = 120 / (n + 2)
+        print(result)
+        rec_divide3(n + 1)
+
+def rec_divide4(n):
+    if n <= 5:
+        result = 60 / n
+        print(result)
+        rec_divide4(n + 1)
+
+def rec_divide5(n):
+    if n <= 7:
+        result = n / 4
+        print(result)
+        rec_divide5(n + 1)
+
+def rec_divide6(n):
+    if n <= 6:
+        result = 40 / n
+        print(result)
+        rec_divide6(n + 1)
+
+def rec_divide7(n):
+    if n <= 5:
+        result = 50 / (n + 3)
+        print(result)
+        rec_divide7(n + 1)
+
+def rec_divide8(n):
+    if n <= 4:
+        result = 70 / n
+        print(result)
+        rec_divide8(n + 1)
+
+def rec_divide9(n):
+    if n <= 6:
+        result = n / 5
+        print(result)
+        rec_divide9(n + 1)
+
+def rec_divide10(n):
+    if n <= 5:
+        result = 90 / (n * 3)
+        print(result)
+        rec_divide10(n + 1)def rec_modulo1(n):
+    if n <= 9:
+        result = n % 4
+        print(result)
+        rec_modulo1(n + 1)
+
+def rec_modulo2(n):
+    if n <= 7:
+        result = n % 3
+        print(result)
+        rec_modulo2(n + 1)
+
+def rec_modulo3(n):
+    if n <= 11:
+        result = n % 5
+        print(result)
+        rec_modulo3(n + 1)
+
+def rec_modulo4(n):
+    if n <= 8:
+        result = n % 6
+        print(result)
+        rec_modulo4(n + 1)
+
+def rec_modulo5(n):
+    if n <= 10:
+        result = n % 7
+        print(result)
+        rec_modulo5(n + 1)
+
+def rec_modulo6(n):
+    if n <= 9:
+        result = (n + 3) % 4
+        print(result)
+        rec_modulo6(n + 1)
+
+def rec_modulo7(n):
+    if n <= 6:
+        result = n % 8
+        print(result)
+        rec_modulo7(n + 1)
+
+def rec_modulo8(n):
+    if n <= 7:
+        result = (n * 3) % 5
+        print(result)
+        rec_modulo8(n + 1)
+
+def rec_modulo9(n):
+    if n <= 8:
+        result = n % 9
+        print(result)
+        rec_modulo9(n + 1)
+
+def rec_modulo10(n):
+    if n <= 5:
+        result = (n + 6) % 3
+        print(result)
+        rec_modulo10(n + 1)
+
+
+#taghsim sahih
+
+def rec_floor_div1(n):
+    if n <= 6 and n > 0:
+        result = 30 // n
+        print(result)
+        rec_floor_div1(n + 1)
+
+def rec_floor_div2(n):
+    if n <= 7:
+        result = n // 3
+        print(result)
+        rec_floor_div2(n + 1)
+
+def rec_floor_div3(n):
+    if n <= 5:
+        result = 25 // n
+        print(result)
+        rec_floor_div3(n + 1)
+
+def rec_floor_div4(n):
+    if n <= 8:
+        result = n // 4
+        print(result)
+        rec_floor_div4(n + 1)
+
+def rec_floor_div5(n):
+    if n <= 6:
+        result = 35 // n
+        print(result)
+        rec_floor_div5(n + 1)
+
+def rec_floor_div6(n):
+    if n <= 9:
+        result = n // 5
+        print(result)
+        rec_floor_div6(n + 1)
+
+def rec_floor_div7(n):
+    if n <= 7:
+        result = 40 // n
+        print(result)
+        rec_floor_div7(n + 1)
+
+def rec_floor_div8(n):
+    if n <= 5:
+        result = n // 2
+        print(result)
+        rec_floor_div8(n + 1)
+
+def rec_floor_div9(n):
+    if n <= 6:
+        result = 50 // (n + 3)
+        print(result)
+        rec_floor_div9(n + 1)
+
+def rec_floor_div10(n):
+    if n <= 8:
+        result = n // 6
+        print(result)
+        rec_floor_div10(n + 1)
+
+
+#jame
+
+def rec_plus1(n):
+    if n <= 6:
+        result = n + 15
+        print(result)
+        rec_plus1(n + 1)
+
+def rec_plus2(n):
+    if n <= 5:
+        result = n + 8
+        print(result)
+        rec_plus2(n + 1)
+
+def rec_plus3(n):
+    if n <= 7:
+        result = n + n
+        print(result)
+        rec_plus3(n + 1)
+
+def rec_plus4(n):
+    if n <= 4:
+        result = n + 25
+        print(result)
+        rec_plus4(n + 1)
+
+def rec_plus5(n):
+    if n <= 6:
+        result = n + 9
+        print(result)
+        rec_plus5(n + 1)
+
+def rec_plus6(n):
+    if n <= 5:
+        result = n + 18
+        print(result)
+        rec_plus6(n + 1)
+
+def rec_plus7(n):
+    if n <= 7:
+        result = n + 5
+        print(result)
+        rec_plus7(n + 1)
+
+def rec_plus8(n):
+    if n <= 6:
+        result = n + 14
+        print(result)
+        rec_plus8(n + 1)
+
+def rec_plus9(n):
+    if n <= 5:
+        result = n + 11
+        print(result)
+        rec_plus9(n + 1)
+
+def rec_plus10(n):
+    if n <= 4:
+        result = n + 30
+        print(result)
+        rec_plus10(n + 1)
+#tafrigh
+
+def rec_minus1(n):
+    if n <= 6:
+        result = 25 - n
+        print(result)
+        rec_minus1(n + 1)
+
+def rec_minus2(n):
+    if n <= 5:
+        result = n - 2
+        print(result)
+        rec_minus2(n + 1)
+
+def rec_minus3(n):
+    if n <= 7:
+        result = 20 - n
+        print(result)
+        rec_minus3(n + 1)
+
+def rec_minus4(n):
+    if n <= 4:
+        result = 15 - n
+        print(result)
+        rec_minus4(n + 1)
+
+def rec_minus5(n):
+    if n <= 6:
+        result = n - 3
+        print(result)
+        rec_minus5(n + 1)
+
+def rec_minus6(n):
+    if n <= 5:
+        result = 30 - n
+        print(result)
+        rec_minus6(n + 1)
+
+def rec_minus7(n):
+    if n <= 7:
+        result = n - 4
+        print(result)
+        rec_minus7(n + 1)
+
+def rec_minus8(n):
+    if n <= 6:
+        result = 35 - n
+        print(result)
+        rec_minus8(n + 1)
+
+def rec_minus9(n):
+    if n <= 5:
+        result = n - 1
+        print(result)
+        rec_minus9(n + 1)
+
+def rec_minus10(n):
+    if n <= 4:
+        result = 12 - n
+        print(result)
+        rec_minus10(n + 1)
+
+
+#tavvaann
+
+def rec_power1(n):
+    if n <= 5:
+        result = n ** 2
+        print(result)
+        rec_power1(n + 1)
+
+def rec_power2(n):
+    if n <= 4:
+        result = 3 ** n
+        print(result)
+        rec_power2(n + 1)
+
+def rec_power3(n):
+    if n <= 6:
+        result = n ** 3
+        print(result)
+        rec_power3(n + 1)
+
+def rec_power4(n):
+    if n <= 5:
+        result = 4 ** n
+        print(result)
+        rec_power4(n + 1)
+
+def rec_power5(n):
+    if n <= 4:
+        result = n ** 4
+        print(result)
+        rec_power5(n + 1)
+
+def rec_power6(n):
+    if n <= 6:
+        result = 5 ** n
+        print(result)
+        rec_power6(n + 1)
+
+def rec_power7(n):
+    if n <= 5:
+        result = n ** 2
+        print(result)
+        rec_power7(n + 1)
+
+def rec_power8(n):
+    if n <= 4:
+        result = 6 ** n
+        print(result)
+        rec_power8(n + 1)
+
+def rec_power9(n):
+    if n <= 5:
+        result = n ** 6
+        print(result)
+        rec_power9(n + 1)
+
+def rec_power10(n):
+    if n <= 4:
+        result = 12 ** n
+        print(result)
+        rec_power10(n + 1)
+
+#<
+
+def rec_less1(n):
+    if n < 7:
+        print(n)
+        rec_less1(n + 1)
+
+def rec_less2(n):
+    if n < 9:
+        result = n * 3
+        print(result)
+        rec_less2(n + 1)
+
+def rec_less3(n):
+    if n < 8:
+        print(f"عدد کوچک: {n}")
+        rec_less3(n + 1)
+
+def rec_less4(n):
+    if n < 6:
+        result = n + 15
+        print(result)
+        rec_less4(n + 1)
+
+def rec_less5(n):
+    if n < 5:
+        print(f"مقدار: {n}")
+        rec_less5(n + 1)
+
+#>
+
+def rec_greater1(n):
+    if n > 4:
+        print(n)
+    if n < 11:
+        rec_greater1(n + 1)
+
+def rec_greater2(n):
+    if n > 6:
+        result = n * 4
+        print(result)
+    if n < 12:
+        rec_greater2(n + 1)
+
+def rec_greater3(n):
+    if n > 3:
+        print(f"عدد بزرگ: {n}")
+    if n < 9:
+        rec_greater3(n + 1)
+
+def rec_greater4(n):
+    if n > 5:
+        result = n - 3
+        print(result)
+    if n < 10:
+        rec_greater4(n + 1)
+
+def rec_greater5(n):
+    if n > 2:
+        print(f"مقدار: {n}")
+    if n < 8:
+        rec_greater5(n + 1)
+
+#>=
+
+
+def rec_greater_equal1(n):
+    if n >= 3:
+        print(n)
+    if n < 9:
+        rec_greater_equal1(n + 1)
+
+def rec_greater_equal2(n):
+    if n >= 5:
+        result = n * 5
+        print(result)
+    if n < 11:
+        rec_greater_equal2(n + 1)
+
+def rec_greater_equal3(n):
+    if n >= 4:
+        print(f"عدد: {n}")
+    if n < 10:
+        rec_greater_equal3(n + 1)
+
+def rec_greater_equal4(n):
+    if n >= 6:
+        result = n + 8
+        print(result)
+    if n < 12:
+        rec_greater_equal4(n + 1)
+
+def rec_greater_equal5(n):
+    if n >= 2:
+        print(f"مقدار: {n}")
+    if n < 8:
+        rec_greater_equal5(n + 1)
+
+#<=
+
+
+def rec_less_equal1(n):
+    if n <= 8:
+        print(n)
+        rec_less_equal1(n + 1)
+
+def rec_less_equal2(n):
+    if n <= 7:
+        result = n * 6
+        print(result)
+        rec_less_equal2(n + 1)
+
+def rec_less_equal3(n):
+    if n <= 9:
+        print(f"عدد: {n}")
+        rec_less_equal3(n + 1)
+
+def rec_less_equal4(n):
+    if n <= 6:
+        result = n + 12
+        print(result)
+        rec_less_equal4(n + 1)
+
+def rec_less_equal5(n):
+    if n <= 10:
+        print(f"مقدار: {n}")
+        rec_less_equal5(n + 1)
+
+#!
+
+
+def rec_not_equal1(n):
+    if n != 4:
+        print(n)
+    if n < 9:
+        rec_not_equal1(n + 1)
+
+def rec_not_equal2(n):
+    if n != 6:
+        result = n * 3
+        print(result)
+    if n < 11:
+        rec_not_equal2(n + 1)
+
+def rec_not_equal3(n):
+    if n != 5:
+        print(f"عدد: {n}")
+    if n < 10:
+        rec_not_equal3(n + 1)
+
+def rec_not_equal4(n):
+    if n != 3:
+        result = n + 5
+        print(result)
+    if n < 8:
+        rec_not_equal4(n + 1)
+
+def rec_not_equal5(n):
+    if n != 7:
+        print(f"مقدار: {n}")
+    if n < 12:
+        rec_not_equal5(n + 1)
+
+
+#==
+def rec_equal1(n):
+    if n == 3 or n == 6 or n == 9:
+        print(n)
+    if n < 12:
+        rec_equal1(n + 1)
+
+def rec_equal2(n):
+    if n == 4 or n == 8:
+        result = n * 12
+        print(result)
+    if n < 13:
+        rec_equal2(n + 1)
+
+def rec_equal3(n):
+    if n == 2 or n == 7:
+        print(f"عدد خاص: {n}")
+    if n < 10:
+        rec_equal3(n + 1)
+
+def rec_equal4(n):
+    if n == 5 or n == 10:
+        result = n + 25
+        print(result)
+    if n < 15:
+        rec_equal4(n + 1)
+
+def rec_equal5(n):
+    if n == 3 or n == 8:
+        print(f"مقدار ویژه: {n}")
+    if n < 11:
+        rec_equal5(n + 1)
